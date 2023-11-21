@@ -57,7 +57,7 @@ const Header: React.FC<Props> = ({ todo, setTodo, handleAdd }: Props) => {
                   ref={inputRef}
                   value={todo}
                   onChange={(e) => setTodo(e.target.value)}
-                  className="flex pl-3  focus:shadow focus:shadow-sm focus:dark:shadow-slate-300 focus:shadow-black rounded-3xl w-96 h-9 dark:bg-khaki/40 bg-grayfrench/30  focus:outline-none p-1 font-playpen font-bold text-md dark:text-white text-black"
+                  className="flex pl-3  focus:shadow-sm focus:dark:shadow-slate-300 focus:shadow-black rounded-3xl w-96 h-9 dark:bg-khaki/40 bg-grayfrench/30  focus:outline-none p-1 font-playpen font-bold text-md dark:text-white text-black"
                   type="input"
                   placeholder="Enter your tasks."
                 />
