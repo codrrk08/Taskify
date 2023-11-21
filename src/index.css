@@ -1,13 +1,17 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+    font-family:"Aquatico";
+    src: url("C:/GITHUB/projects/taskify/src/fonts/Aquatico-Regular.otf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family:"Playpen";
+    src: url("C:/GITHUB/projects/taskify/src/fonts/PlaypenSans-Light.ttf");
+}
+@font-face {
+    font-family: "Anton";
+    src: url("C:/GITHUB/projects/taskify/src/fonts/Anton-Regular.ttf");
 }
