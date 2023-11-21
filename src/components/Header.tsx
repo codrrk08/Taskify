@@ -1,5 +1,4 @@
 import React from "react";
-import logow from "../assets/logow.png"
 import old from "../assets/old.png";
 import { useRef, useState, useEffect } from "react";
 
@@ -33,21 +32,18 @@ const Header: React.FC<Props> = ({ todo, setTodo, handleAdd }: Props) => {
       <div className="dark:bg-black bg-whitesmoke max-xl:pr-20 max-xl:pt-20 max-sm:pr-8 max-sm:pt-8 lg:pr-20 lg:pt-20 text-2xl  flex justify-end">
         <span
           onClick={handleThemeSwitch}
-          className="hover:shadow-md dark:hover:shadow-slate-300 hover:shadow-gray transition duration-300 rounded-3xl cursor-pointer text-gray-500"
+          className="hover:shadow-md  hover:shadow-slate-400 transition duration-300 rounded-3xl cursor-pointer text-gray-500"
         >
-          {theme === "light" ? <MdDarkMode /> : <MdLightMode />
-}
+          {theme === "light" ? <MdDarkMode /> : <MdLightMode />}
         </span>
       </div>
       <div className="dark:bg-black bg-whitesmoke flex flex-col items-center gap-2  ">
         <div className="flex p-8 flex-col items-center gap-5  relative">
-          {theme === "light"?(
+          {theme === "light" ? (
             <img src={old} alt="Logo" height="400" width="400" />
-
-          ):(
+          ) : (
             <img src={old} alt="Logo" height="400" width="400" />
           )}
-          
 
           <div className="">
             <form
