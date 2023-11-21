@@ -62,7 +62,7 @@ const SingleTodo = ({ index, todo, todos, setTodos }: Props) => {
             <input
               ref={inputRef}
               value={editTodo}
-              className="pl-2 mr-2 flex-1 w-2/3  focus:shadow focus:shadow-sm focus:dark:shadow-slate-300 focus:shadow-black rounded-3xl h-9 dark:bg-khaki/50 bg-grayfrench/70 focus:outline-none text-md text-black dark:text-white font-playpen"
+              className="pl-2 mr-2 flex-1 w-2/3 focus:shadow-sm focus:dark:shadow-slate-300 focus:shadow-black rounded-3xl h-9 dark:bg-khaki/50 bg-grayfrench/70 focus:outline-none text-md text-black dark:text-white font-playpen"
               onChange={(e) => setEditTodo(e.target.value)}
             />
           ) : todo.isDone ? (

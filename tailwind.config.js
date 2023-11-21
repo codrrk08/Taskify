@@ -20,13 +20,12 @@ module.exports = {
         anton: ["Anton", "sans"],
       },
       backgroundImage: {
-        bgrnd: "url('C:/GITHUB/projects/taskify/src/assets/background.jpg')",
-        sunset: "url(C:/GITHUB/projects/taskify/src/assets/redSunset.jpg)",
-        bighead: "url(C:/GITHUB/projects/taskify/src/assets/bigHead.jpg)",
+        
+  
         virgin: "url(C:/GITHUB/projects/taskify/src/assets/virgin.jpg)",
-        almost: "url(C:/GITHUB/projects/taskify/src/assets/almost.jpg)",
+        almost:"url(C:/GITHUB/projects/taskify/src/assets/almost.jpg)",
         midnight:"url(C:/GITHUB/projects/taskify/src/assets/midnight.jpg)",
-        deep:"url(C:/GITHUB/projects/taskify/src/assets/deep.jpg)"
+       
       },
     },
   },
