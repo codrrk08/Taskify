@@ -56,7 +56,7 @@ const TodoList: React.FC<Props> = ({
           <div
             ref={provided.innerRef}
             {...provided.droppableProps}
-            className="flex flex-col items-center rounded-lg p-3 w-1/3 bg-almost dark:bg-midnight bg-cover"
+            className="flex flex-col items-center rounded-lg p-3 w-1/3 bg-virgin dark:bg-midnight bg-cover"
           >
             <span className="font-playpen font-extrabold text-xl text-black dark:text-slate-300 p-3">
               Important Tasks

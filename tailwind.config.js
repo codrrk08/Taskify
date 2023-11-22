@@ -22,7 +22,6 @@ module.exports = {
       backgroundImage: {
         virgin: "url(C:/GITHUB/projects/taskify/src/assets/virgin.jpg)",
         midnight: "url(C:/GITHUB/projects/taskify/src/assets/midnight.jpg)",
-        almost: "url(C:/GITHUB/projects/taskify/src/assets/almost.jpg)",
       },
     },
   },
